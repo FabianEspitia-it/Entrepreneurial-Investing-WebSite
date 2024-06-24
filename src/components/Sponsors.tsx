@@ -5,7 +5,7 @@ import { Fade, Bounce, Zoom } from 'react-awesome-reveal'
 export default function Sponsors() {
   return (
 
-    <section className="relative py-12">
+    <section className="relative py-24">
       <Fade cascade duration={1000} triggerOnce>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
@@ -39,10 +39,6 @@ export default function Sponsors() {
               <Image src="/images/makers.png" alt='Logo of Truora' width={80} height={80} />
             </div>
 
-            {/* Item  AZURE MICROSOFT*/}
-            {/* <div data-aos="zoom-y-out" className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <Image src={azure} alt='Logo of AZURE MICROSOFT' width={60} />
-            </div> */}
 
           </div>
         </div>

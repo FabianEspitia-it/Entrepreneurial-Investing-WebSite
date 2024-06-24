@@ -46,7 +46,7 @@ export default function Questions() {
   return (
     <>
     <Fade triggerOnce>
-      <section id="questions" className='relative md:py-28 px-4 sm:px-6 '>
+      <section id="questions" className='relative md:py-24 px-4 sm:px-6 '>
         
           <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Frequently asked questions <br /> You have the <span className='text-gradient'>questions</span>, we have the <span className='text-gradient'>answers.</span></h2>
           <div className="max-w-4xl mx-auto border border-gray-200 rounded-xl p-6 bg-white shadow-lg">
@@ -84,7 +84,9 @@ export default function Questions() {
             <QuestionItem title='How can I get in touch with you?' answer="Feel free to email us at info@entrepreneurial.com." />
           </div>
         </section>
+      </Fade>
 
+      <Fade triggerOnce>        
         <section className='relative pb-12 md:pb-20 px-4 sm:px-6'>
           <p className='text-xl text-black max-w-4xl mx-auto text-center'>Still have more questions? Contact us <a href='mailto:info@fundraisingschool.com' className='text-EI_purple hover:text-EI_green transition-colors'>info@entrepreneurial.com</a> </p>
         </section>

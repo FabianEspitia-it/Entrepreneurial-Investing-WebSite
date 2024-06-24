@@ -13,6 +13,7 @@
     "@headlessui/react": "^2.1.0",
     "@heroicons/react": "^2.1.4",
     "aos": "^3.0.0-beta.6",
+    "clsx": "^2.1.1",
     "next": "14.2.4",
     "react": "^18",
     "react-animate-on-scroll": "^2.1.9",
