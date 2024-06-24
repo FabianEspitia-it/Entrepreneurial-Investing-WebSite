@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <header className={`fixed top-0 left-0 w-full flex justify-between items-center p-4 bg-white z-50  ${!top ? 'bg-white backdrop-blur-lg shadow-lg duration-200' : ''}`}>
-        <h1 className="md:text-2xl font-bold pl-4 text-md ">ENTREPRENEURIAL</h1>
+        <h1 className="lg:text-2xl lg:pl-12 font-bold pl-4 text-md ">ENTREPRENEURIAL</h1>
         <nav>
           <ul className="lg:flex space-x-4 sm:space-x-10 text-black font-bold hidden">
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_purple hover:text-gradient duration-200">
@@ -48,7 +48,7 @@ export default function Home() {
           </ul>
         </nav>
         <div className="flex justify-between items-center">
-          <button className="border border-EI_purple text-EI_green py-2 px-2 rounded mr-4 hover:bg-EI_green hover:text-white hover:border-EI_green duration-200">
+          <button className="border border-EI_purple text-EI_green p-2 rounded mr-12 hover:bg-EI_green hover:text-white hover:border-EI_green duration-200">
             Let&apos;s do it
           </button>
           <MobileMenu />
