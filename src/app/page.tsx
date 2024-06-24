@@ -28,6 +28,9 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <header className={`fixed top-0 left-0 w-full flex justify-between items-center p-4 bg-white z-50  ${!top ? 'bg-white backdrop-blur-lg shadow-lg duration-200' : ''}`}>
         <h1 className="lg:text-2xl lg:pl-12 font-bold pl-4 text-md ">ENTREPRENEURIAL</h1>
+        {/* <a href="/">
+          <Image src="/images/logoss-02.png" alt="EI" width={40} height={40} />
+        </a> */}
         <nav>
           <ul className="lg:flex space-x-4 sm:space-x-10 text-black font-bold hidden">
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_purple hover:text-gradient duration-200">

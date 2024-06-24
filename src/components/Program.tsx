@@ -47,7 +47,7 @@ export default function Modules() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-4">
                       {modules.map((module, index) => (
                           <div key={index} className="bg-gradient-to-r from-EI_green to-EI_purple p-0.5 rounded-lg shadow-lg">
-                            <div className="h-full w-full rounded-lg p-2 bg-gray-100">
+                            <div className="size-full rounded-lg p-2 bg-gray-100">
                               <h2 className="text-xl font-bold p-1">{module.title}</h2>
                               <ul className="list-disc list-inside">
                                   {module.subtopics.map((subtopic, subIndex) => (
