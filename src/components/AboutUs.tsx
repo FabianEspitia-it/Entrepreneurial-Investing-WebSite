@@ -9,7 +9,7 @@ export default function AboutUs() {
                 <h1 className="lg:py-10 lg:text-6xl lg:leading-9 lg:font-extrabold ">
                     Welcome to <span className='text-gradient'>Entrepreneurial Investing</span>
                 </h1>
-                <p className="lg:mt-4 lg:text-xl lg:leading-7 text-gray-700">
+                <p className="lg:mt-4 lg:text-xl lg:leading-7 text-gray-700 text-sm">
                     Your gateway to mastering the art of investing in startups across Latin America. Our mission is to empower aspiring and seasoned investors with the knowledge, tools, and network needed to identify and invest in the most promising startups in the region.
                 </p>
                 <p className="lg:mt-6 lg:text-lg lg:leading-7 text-gray-700">
