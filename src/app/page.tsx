@@ -62,10 +62,10 @@ export default function Home() {
       <main className="flex flex-col justify-center flex-1 px-6 sm:px-6 lg:px-8 mt-32 sm:mt-44">
         <section>
           <Fade cascade duration={900} triggerOnce>
-            <h1 className="lg:text-7xl lg:mb-4 lg:pl-10 text-4xl font-extrabold text-gray-900">
+            <h1 className="lg:text-7xl lg:mb-4 lg:pl-8 text-4xl font-extrabold text-gray-900">
               Learn To <span className="text-gradient">Invest</span> In <span className="text-gradient">Startups</span> Like The <span className="text-gradient">Best In Latam</span>
             </h1>
-            <p className="lg:text-xl lg:pl-12 pt-4 text-sm text-gray-600 max-w-3xl">
+            <p className="lg:text-xl lg:pl-10 pt-4 text-sm text-gray-600 max-w-3xl">
               Learn to invest in startups like the best in Latam. Discover strategies, tips, and secrets from regional experts to make smart decisions and maximize your investments.
             </p>
           </Fade>

@@ -6,14 +6,14 @@ export default function Sponsors() {
   return (
 
     <section className="relative py-24">
-      <Fade cascade duration={1000} triggerOnce>
+      <Fade cascade duration={2000} triggerOnce>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             {/* <h2 className="h2 mb-4">TTrusted by these partners, our community benefit from more than $50k in deals from the generous companies that support our community</h2> */}
-            <p className="text-4xl font-semibold ">Our Partners in <span className='text-gradient'>Success</span></p>
+            <p className="text-3xl font-semibold ">Our Partners in <span className='text-gradient'>Success</span></p>
           </div>
 
           {/* Items */}

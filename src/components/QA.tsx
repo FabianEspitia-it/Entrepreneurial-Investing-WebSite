@@ -45,10 +45,10 @@ function QuestionItem({ title, answer }: { title: string, answer: string }) {
 export default function Questions() {
   return (
     <>
-    <Fade triggerOnce>
+    <Fade triggerOnce duration={2000}>
       <section id="questions" className='relative md:py-20 px-4 sm:px-6 '>
         
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Frequently asked questions <br /> You have the <span className='text-gradient'>questions</span>, we have the <span className='text-gradient'>answers.</span></h2>
+          <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Frequently asked questions <br /> You have the <span className='text-gradient'>questions</span>, we have the <span className='text-gradient'>answers.</span></h2>
           <div className="max-w-4xl mx-auto border border-gray-200 rounded-xl p-6 bg-white shadow-lg">
 
             <QuestionItem title='What is the Latam startup investment program about?' answer="The program offers comprehensive training on how to invest in startups in Latin America. It includes strategies, tips, and secrets from regional experts to make informed decisions and maximize investment returns." />
