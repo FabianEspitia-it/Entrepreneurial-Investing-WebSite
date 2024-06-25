@@ -17,12 +17,12 @@ export default function AboutUs() {
     return (
 
     <section id='about' className='pt-40 pb-20'>
-      <Fade triggerOnce duration={1000}>
+      <Fade triggerOnce duration={2000}>
       <h2 className='text-4xl font-bold text-center'>About <span className='text-gradient'>Entrepreneurial Investing</span></h2>   
       <div className="flex flex-wrap justify-center gap-14 pt-10">
         {cardData.map((card, index) => (
           <div key={index} className="max-w-sm w-full lg:w-1/3 flex-grow">
-            <div className="border-2 border-EI_green bg-white rounded p-4 flex flex-col justify-between leading-normal shadow-lg">
+            <div className="border-1 border-EI_green bg-white rounded-3xl p-4 flex flex-col justify-between leading-normal shadow-md shadow-EI_green">
               <div className="mb-8">
                 <h2 className="text-gray-900 font-bold text-xl mb-2">{card.title}</h2>
                 <p className="text-gray-700 text-base">{card.text}</p>
