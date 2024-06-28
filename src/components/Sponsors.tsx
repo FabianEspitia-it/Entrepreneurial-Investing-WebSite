@@ -13,7 +13,7 @@ export default function Sponsors() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             {/* <h2 className="h2 mb-4">TTrusted by these partners, our community benefit from more than $50k in deals from the generous companies that support our community</h2> */}
-            <p className="text-3xl font-semibold ">Our Partners in <span className='text-gradient'>Success</span></p>
+            <p className="text-3xl font-semibold ">Our Partners in <span className='text-gradient-2'>Success</span></p>
           </div>
 
           {/* Items */}

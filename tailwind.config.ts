@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         "EI_green": "#6DBFA4",
         "EI_purple": "#8695CB",
+        "EI_new_green": "#1cd760",
+        "EI_yellow": "#cdf96b",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

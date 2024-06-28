@@ -52,7 +52,7 @@ function ModuleItem({ title, subtopics, icon: Icon }: { title: string, subtopics
         <>
           <Disclosure.Button className="font-semibold border-2 text-lg text-left flex gap-2 justify-between items-center w-full py-3 px-4 bg-white hover:bg-gray-100 transition-colors duration-300 rounded-lg shadow-md">
             <div className='flex items-center gap-2'>
-              <Icon className="w-6 h-6 text-EI_purple" />
+              <Icon className="w-6 h-6 text-EI_new_green" />
               <p className='block max-w-[90%]'>{title}</p>
             </div>
             <ChevronDownIcon className={clsx("w-6 h-6 transition-transform", open ? "rotate-180" : "rotate-0")} />
@@ -75,9 +75,9 @@ function ModuleItem({ title, subtopics, icon: Icon }: { title: string, subtopics
 
 export default function Modules() {
   return (
-    <Fade triggerOnce duration={2000}>
-      <section id="program" className='relative md:py-20 px-4 sm:px-6'>
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Program <span className='text-gradient'>Modules</span></h2>
+    <Fade triggerOnce cascade duration={3000}>
+      <section id="program" className='relative md:py-24 px-4 sm:px-6'>
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Program <span className='text-gradient-2'>Modules</span></h2>
         <div className="max-w-4xl mx-auto rounded-xl p-6">
           {modules.map((module, index) => (
             <div key={index}>
