@@ -31,11 +31,11 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <header className={`fixed top-0 left-0 w-full flex justify-between items-center p-4 bg-white z-50  ${!top ? 'bg-white backdrop-blur-lg shadow-lg duration-200' : ''}`}>
         <a className='top-0' href="/">
-          <Image className='pl-8' src="/images/loguitio verde.png" alt="EI" width={85} height={190} />
           
+          <Image className='pl-8' src="/images/loguitio verde.png" alt="EI" width={85} height={190} />
         </a> 
         {/* 
-        
+        <Image className='pl-6' src="/images/logo verde-03.png" alt="EI" width={170} height={190} />
         <h1 className="lg:text-2xl lg:pl-12 font-bold pl-4 text-md ">ENTREPRENEURIAL</h1>
         */}
         <nav className='pl-14'>

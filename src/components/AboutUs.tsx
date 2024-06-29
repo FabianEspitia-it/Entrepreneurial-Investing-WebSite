@@ -16,8 +16,8 @@ export default function AboutUs() {
   
     return (
 
-    <section id='about' className='pt-40 pb-20 '>
-      <Fade triggerOnce duration={3000}>
+    <section id='about' className='pt-40 mb-28 '>
+      <Fade triggerOnce duration={2000}>
       <h2 className='text-4xl font-bold text-center'>About <span className='text-gradient-2'>Entrepreneurial Investing</span></h2>   
       <div className="flex flex-wrap justify-center gap-14 pt-10">
         {cardData.map((card, index) => (

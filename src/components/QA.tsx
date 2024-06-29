@@ -45,7 +45,7 @@ function QuestionItem({ title, answer }: { title: string, answer: string }) {
 export default function Questions() {
   return (
     <>
-    <Fade triggerOnce duration={2000}>
+    <Fade triggerOnce duration={3000}>
       <section id="questions" className='relative md:py-24 px-4 sm:px-6 '>
         
           <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Frequently asked questions <br /> You have the <span className='text-gradient-2'>questions</span>, we have the <span className='text-gradient-2'>answers.</span></h2>

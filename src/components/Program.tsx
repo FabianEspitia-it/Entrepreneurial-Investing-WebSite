@@ -75,7 +75,7 @@ function ModuleItem({ title, subtopics, icon: Icon }: { title: string, subtopics
 
 export default function Modules() {
   return (
-    <Fade triggerOnce cascade duration={3000}>
+    <Fade triggerOnce cascade duration={2000}>
       <section id="program" className='relative md:py-24 px-4 sm:px-6'>
         <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">Program <span className='text-gradient-2'>Modules</span></h2>
         <div className="max-w-4xl mx-auto rounded-xl p-6">
