@@ -18,7 +18,7 @@ export default function PitchPractice() {
           <br />
           Come practice your pitch and receive feedback from experienced investors in the region
         </p>
-        <div className="flex flex-row gap-16 pt-8">
+        <div className="flex flex-col lg:flex-row gap-12 pt-8">
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-40 border-2">
             <Org />
             <p className="text-center mt-4 text-gray-700">Present your pitch in 5 minutes</p>
