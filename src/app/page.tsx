@@ -26,7 +26,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <NavBar />
 
-      <main className="flex flex-col justify-center flex-1 px-8 md:mt-48 md:gap-7 mt-36">
+      <main className="flex flex-col justify-center flex-1 px-8 md:mt-48 md:gap-6 mt-36">
         <Hero />
         <AboutUs />
         <Modules />
