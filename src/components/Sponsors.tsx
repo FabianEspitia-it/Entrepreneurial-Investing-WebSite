@@ -21,7 +21,7 @@ export default function Sponsors() {
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
                   src="/images/camara.png"
-                  alt="Logo of OnTop"
+                  alt="Camara Logo"
                   width={150}
                   height={170}
                 />
@@ -31,7 +31,7 @@ export default function Sponsors() {
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
                   src="/images/andes.png"
-                  alt="Logo of Mention"
+                  alt="Andes Logo"
                   width={140}
                   height={80}
                 />
@@ -41,7 +41,7 @@ export default function Sponsors() {
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
                   src="/images/logo_eafit_completo.png"
-                  alt="Logo of Faktory"
+                  alt="Eafit logo"
                   width={160}
                   height={80}
                 />
@@ -51,7 +51,7 @@ export default function Sponsors() {
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
                   src="/images/fs_logo.png"
-                  alt="Logo of Truora"
+                  alt="FS logo"
                   width={100}
                   height={80}
                 />
