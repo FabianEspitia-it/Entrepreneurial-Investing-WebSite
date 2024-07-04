@@ -30,7 +30,7 @@ export default function Sponsors() {
               {/* Item Mention */}
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
-                  src="/images/universidad-de-los-Andes.png"
+                  src="/images/andes.png"
                   alt="Logo of Mention"
                   width={140}
                   height={80}
