@@ -23,7 +23,7 @@ export default function PitchPractice() {
           Come practice your pitch and receive feedback from experienced
           investors in the region
         </p>
-        <div className="md:flex md:flex-row md:gap-7 gap-8 pt-8 grid grid-cols-2 sm:grid-cols-2">
+        <div className="md:flex md:flex-row md:gap-7 gap-9 pt-8 grid grid-cols-2 sm:grid-cols-2">
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-32 md:size-40 border-2">
             <Org />
             <p className="text-center md:text-base text-sm mt-4 text-gray-700">
