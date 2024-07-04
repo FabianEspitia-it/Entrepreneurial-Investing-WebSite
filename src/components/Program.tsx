@@ -106,11 +106,11 @@ export default function Modules() {
   return (
     <Fade triggerOnce cascade duration={1500}>
       <section id="program" className="relative px-4 py-32">
-        <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-7">
+        <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-7">
           Program <span className="text-gradient-2">Modules</span> for
           Entrepreneurial <span className="text-gradient-2">Investors</span>
         </h2>
-        <div className="max-w-4xl mx-auto p-6">
+        <div className="md:max-w-4xl mx-auto md:p-6 py-6">
           {modules.map((module, index) => (
             <div key={index}>
               <ModuleItem

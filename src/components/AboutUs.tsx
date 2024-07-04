@@ -16,7 +16,7 @@ export default function AboutUs() {
   return (
     <section id="about" className="py-32">
       <Fade triggerOnce>
-        <h2 className="text-4xl font-bold text-center">
+        <h2 className="md:text-4xl text-3xl font-semibold text-center">
           About{" "}
           <span className="text-gradient-2">Entrepreneurial Investing</span>
         </h2>
@@ -25,10 +25,12 @@ export default function AboutUs() {
             <div key={index} className="max-w-sm w-full lg:w-1/3 flex-grow">
               <div className="border-1 border-EI_new_green bg-white rounded-3xl p-4 flex flex-col justify-between leading-normal shadow-md shadow-EI_new_green">
                 <div className="mb-8">
-                  <h2 className="text-gray-900 font-bold text-xl mb-2">
+                  <h2 className="text-gray-900 font-bold md:text-xl text-lg mb-2">
                     {card.title}
                   </h2>
-                  <p className="text-gray-700 text-base">{card.text}</p>
+                  <p className="text-gray-700 md:text-base text-sm">
+                    {card.text}
+                  </p>
                 </div>
               </div>
             </div>

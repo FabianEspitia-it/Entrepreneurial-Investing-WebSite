@@ -52,7 +52,7 @@ export default function Questions() {
     <>
       <Fade triggerOnce cascade duration={1500}>
         <section id="questions" className="relative px-4 pt-32">
-          <h2 className="text-3xl lg:text-4xl font-extrabold text-center text-gray-900 pb-10 md:pb-10">
+          <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
             Frequently asked questions <br /> You have the{" "}
             <span className="text-gradient-2">questions</span>, we have the{" "}
             <span className="text-gradient-2">answers.</span>
