@@ -7,9 +7,14 @@ import Sponsors from "@/components/Sponsors";
 import PitchPractice from "@/components/PitchPractice";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
+import { useTranslation } from "../i18n/index";
+import { Fade } from "react-awesome-reveal";
 
-export default function Home() {
+export default function Home({
+  params: { lng },
+}: Readonly<{ params: { lng: string } }>) {
   const [top, setTop] = useState<boolean>(true);
+  const { t } = useTranslation(lng);
 
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
@@ -35,7 +40,7 @@ export default function Home() {
         <Questions />
       </main>
 
-      <footer className="bg-white text-center p-4">
+      <footer className="bg-[#f5f5f5] text-center p-4">
         <p className="text-gray-600">
           All rights reserved Entrepreneurial Investing | Designed and built
           with love - Copyright© 2024
