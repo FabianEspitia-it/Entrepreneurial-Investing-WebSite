@@ -61,9 +61,6 @@ export default function NavBar() {
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#questions">Q&A</a>
             </li>
-            <li>
-              <Link href="/course">course</Link>
-            </li>
           </ul>
         </nav>
         <div className="flex gap-4 items-center w-fit">

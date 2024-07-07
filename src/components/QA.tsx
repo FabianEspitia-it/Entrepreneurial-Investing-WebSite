@@ -50,8 +50,8 @@ function QuestionItem({ title, answer }: { title: string; answer: string }) {
 export default function Questions() {
   return (
     <>
-      <Fade triggerOnce cascade duration={1500}>
-        <section id="questions" className="relative px-4 pt-32">
+      <section id="questions" className="relative px-4 pt-32">
+        <Fade triggerOnce>
           <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
             Frequently asked questions <br /> You have the{" "}
             <span className="text-gradient-2">questions</span>, we have the{" "}
@@ -125,8 +125,8 @@ export default function Questions() {
               </a>{" "}
             </p>
           </div>
-        </section>
-      </Fade>
+        </Fade>
+      </section>
     </>
   );
 }

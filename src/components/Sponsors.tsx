@@ -4,7 +4,7 @@ import { Fade, Bounce, Zoom } from "react-awesome-reveal";
 export default function Sponsors() {
   return (
     <section className="relative py-32">
-      <Fade cascade triggerOnce duration={1500}>
+      <Fade cascade triggerOnce>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="">
             {/* Section header */}

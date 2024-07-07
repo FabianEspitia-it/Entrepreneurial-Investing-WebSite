@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 export default function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-16rem)]">
-      <Fade cascade duration={1000} triggerOnce>
+      <Fade triggerOnce duration={900}>
         <h1 className="text-4xl md:text-7xl md:mb-4 md:pl-8 font-extrabold text-gray-900">
           Learn To <span className="text-gradient-2">Invest</span> In{" "}
           <span className="text-gradient-2">Startups</span> Like The{" "}

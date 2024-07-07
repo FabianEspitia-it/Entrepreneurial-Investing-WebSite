@@ -104,8 +104,8 @@ function ModuleItem({
 
 export default function Modules() {
   return (
-    <Fade triggerOnce cascade duration={1500}>
-      <section id="program" className="relative px-4 py-32">
+    <section id="program" className="relative px-4 py-32">
+      <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-7">
           Program <span className="text-gradient-2">Modules</span> for
           Entrepreneurial <span className="text-gradient-2">Investors</span>
@@ -124,7 +124,7 @@ export default function Modules() {
             </div>
           ))}
         </div>
-      </section>
-    </Fade>
+      </Fade>
+    </section>
   );
 }

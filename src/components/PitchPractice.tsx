@@ -11,7 +11,7 @@ export default function PitchPractice() {
       id="pitch"
       className="relative flex flex-col items-center md:px-44 py-32"
     >
-      <Fade triggerOnce duration={1500}>
+      <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold mb-4 text-center">
           Our weekly Pitch Practice is not just a routine, it is a{" "}
           <span className="text-gradient-2">ritual of excellence</span>
