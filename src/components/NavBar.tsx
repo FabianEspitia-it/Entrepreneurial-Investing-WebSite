@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import MobileMenu from "@/components/MobileMenu";
 import clsx from "clsx";
+import Link from "next/link";
 
 export default function NavBar() {
   const [top, setTop] = useState<boolean>(true);
@@ -59,6 +60,9 @@ export default function NavBar() {
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#questions">Q&A</a>
+            </li>
+            <li>
+              <Link href="/course">course</Link>
             </li>
           </ul>
         </nav>
