@@ -40,7 +40,7 @@ export default function Home({
         <Questions />
       </main>
 
-      <footer className="bg-[#f5f5f5] text-center p-4 max-w-screen-xl mx-auto">
+      <footer className="bg-[#f5f5f5] text-center p-4">
         <p className="text-gray-600">
           All rights reserved Entrepreneurial Investing | Designed and built
           with love - Copyright© 2024
