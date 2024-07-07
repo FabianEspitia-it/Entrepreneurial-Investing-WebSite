@@ -31,7 +31,7 @@ export default function Home({
     <div className="min-h-screen bg-white">
       <NavBar />
 
-      <main className="flex flex-col justify-center flex-1 px-8 md:mt-48 md:gap-6 mt-40">
+      <main className="flex flex-col justify-center items-center flex-1 px-8 md:mt-44 md:gap-6 mt-40 max-w-screen-xl mx-auto">
         <Hero />
         <AboutUs />
         <Modules />
@@ -40,7 +40,7 @@ export default function Home({
         <Questions />
       </main>
 
-      <footer className="bg-[#f5f5f5] text-center p-4">
+      <footer className="bg-[#f5f5f5] text-center p-4 max-w-screen-xl mx-auto">
         <p className="text-gray-600">
           All rights reserved Entrepreneurial Investing | Designed and built
           with love - Copyright© 2024
