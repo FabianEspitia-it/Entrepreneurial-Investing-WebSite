@@ -54,7 +54,9 @@ export default function Team() {
               </div>
               <div className="px-6 py-4 text-center">
                 <h2 className="font-bold text-xl mb-2">{profile.name}</h2>
-                <p className="text-gradient-2 font-bold">Organizer</p>
+                <p className="text-gray-700 group-hover:text-EI_new_green duration-300">
+                  Organizer
+                </p>
                 <p className="text-gray-700 pt-3 text-sm">
                   {profile.description}
                 </p>
