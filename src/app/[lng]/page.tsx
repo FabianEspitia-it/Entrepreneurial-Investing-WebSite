@@ -30,7 +30,7 @@ export default function Home({
     <div className="min-h-screen bg-white">
       <NavBar />
 
-      <main className="flex flex-col justify-center items-center flex-1 px-8 md:mt-44 md:gap-2 mt-40 max-w-screen-xl mx-auto">
+      <main className="flex flex-col justify-center align-center flex-1 px-8 md:mt-44 md:gap-2 mt-40 max-w-screen-xl mx-auto">
         <Hero />
         <AboutUs />
         <Modules />
