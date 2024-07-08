@@ -16,7 +16,7 @@ export default function Sponsors() {
             </div>
 
             {/* Items */}
-            <div className="max-w-4xl mx-auto grid lg:gap-y-2 gap-x-9 grid-cols-4 [&>div>img]:grayscale">
+            <div className="max-w-4xl mx-auto grid gap-x-9 grid-cols-4 [&>div>img]:grayscale">
               {/* Item OnTop */}
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
