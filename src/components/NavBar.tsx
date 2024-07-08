@@ -30,15 +30,10 @@ export default function NavBar() {
       <div className="max-w-screen-xl mx-auto flex justify-between items-center p-4 pb-2 lg:px-11">
         <a href="/">
           <Image
-            src="/images/loguitio verde.png"
-            alt="Logo of Entrepreneurial Investing"
-            width={50}
-            height={80}
-            priority
-            style={{
-              width: "auto",
-              height: "auto",
-            }}
+            src="/images/loguitio_verde.png"
+            alt="logo"
+            width={60}
+            height={60}
           />
         </a>
         <nav className="px-8">
