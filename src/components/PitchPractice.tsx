@@ -16,7 +16,7 @@ export default function PitchPractice() {
           Our weekly Pitch Practice is not just a routine, it is a{" "}
           <span className="text-gradient-2">ritual of excellence</span>
         </h2>
-        <p className="text-center md:text-base text-sm mb-8 text-gray-700">
+        <p className="text-center md:text-base text-sm text-gray-700">
           Are you looking for capital or just want to improve your communication
           skills? This is the place for you!
           <br />
