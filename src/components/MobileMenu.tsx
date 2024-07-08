@@ -93,6 +93,15 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
+                href="/#team"
+                onClick={() => setMobileNavOpen(false)}
+                className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+              >
+                Team
+              </a>
+            </li>
+            <li>
+              <a
                 href="/#program"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
@@ -107,15 +116,6 @@ export default function MobileMenu() {
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
                 Pitch practice
-              </a>
-            </li>
-            <li>
-              <a
-                href="/#"
-                onClick={() => setMobileNavOpen(false)}
-                className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-              >
-                Team
               </a>
             </li>
             <li>
