@@ -37,8 +37,8 @@ const modules = [
   {
     title: "Module 4: Servicing",
     subtopics: [
-      "The concept of Venture Assistant",
-      "Helping with Fundraising, Hiring, Operations, Boards, etc.",
+      "The concept of Venture Assistant.",
+      "Helping with Fundraising, Hiring, Operations, Boards, etc",
     ],
     icon: FaHandsHelping,
   },

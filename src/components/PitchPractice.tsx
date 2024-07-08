@@ -13,8 +13,8 @@ export default function PitchPractice() {
     >
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold mb-4 text-center">
-          Our weekly Pitch Practice is not just a routine, it is a{" "}
-          <span className="text-gradient-2">ritual of excellence</span>
+          Our Weekly Pitch Practice Is Not Just a Routine; It Is a{" "}
+          <span className="text-gradient-2">Ritual of Excellence</span>
         </h2>
         <p className="text-center md:text-base text-sm text-gray-700">
           Are you looking for capital or just want to improve your communication

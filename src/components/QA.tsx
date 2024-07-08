@@ -53,13 +53,13 @@ export default function Questions() {
       <section id="questions" className="relative px-4 pt-32">
         <Fade triggerOnce>
           <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
-            Frequently asked questions <br /> You have the{" "}
-            <span className="text-gradient-2">questions</span>, we have the{" "}
-            <span className="text-gradient-2">answers.</span>
+            Frequently Asked Questions <br /> You Have the{" "}
+            <span className="text-gradient-2">Questions</span>, We Have the{" "}
+            <span className="text-gradient-2">Answers</span>
           </h2>
           <div className="max-w-4xl mx-auto border border-gray-200 rounded-xl p-6 bg-white shadow-lg">
             <QuestionItem
-              title="What is the Latam startup investment program about?"
+              title="What is the Entrepreneurial Investing program about?"
               answer="The program offers comprehensive training on how to invest in startups in Latin America. It includes strategies, tips, and secrets from regional experts to make informed decisions and maximize investment returns."
             />
             <hr className="my-4 w-full border-gray-300" />

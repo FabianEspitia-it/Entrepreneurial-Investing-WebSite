@@ -5,19 +5,19 @@ const profiles = [
   {
     name: "Laura Gaviria",
     description:
-      "Laura Gaviria is a co-founder of Team Faktory AI and a former executive at SoftBank. As an angel investor, she has a keen eye for emerging technologies and high-potential startups",
+      "Laura Gaviria is a co-founder of Team Faktory AI and a former executive at SoftBank. As an angel investor, she has a keen eye for emerging technologies and high-potential startups.",
     image: "/images/laura_gaviria.png",
   },
   {
     name: "Laura Gónzalez",
     description:
-      "Laura González serves as the Chief Business Officer for Strategic Growth. With a wealth of experience in driving business expansion and strategic initiatives, she excels at identifying and capitalizing on growth opportunities",
+      "Laura González serves as the Chief Business Officer for Strategic Growth. With a wealth of experience in driving business expansion and strategic initiatives, she excels at identifying and capitalizing on growth opportunities.",
     image: "/images/laura_g2.png",
   },
   {
     name: "Andrés Bilbao",
     description:
-      "Andrés Bilbao is a distinguished co-founder of Rappi and Makers. Renowned for his strategic vision and entrepreneurial spirit, he has also invested in some of the most successful startups in the region",
+      "Andrés Bilbao is a distinguished co-founder of Rappi and Makers. Renowned for his strategic vision and entrepreneurial spirit, he has also invested in some of the most successful startups in the region.",
     image: "/images/andres_bilbao_profile.png",
   },
 ];

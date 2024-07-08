@@ -10,9 +10,9 @@ export default function Hero() {
           <span className="text-gradient-2">Best In Latam</span>
         </h1>
         <p className="text-base md:text-xl md:pl-11 pt-4 text-gray-600 max-w-3xl">
-          Learn to invest in startups like the best in Latam. Discover
-          strategies, tips, and secrets from regional experts to make smart
-          decisions and maximize your investments.
+          To empower both aspiring and seasoned investors with the knowledge,
+          tools, and network needed to identify and invest in the most promising
+          startups in Latin America.
         </p>
       </Fade>
     </section>
