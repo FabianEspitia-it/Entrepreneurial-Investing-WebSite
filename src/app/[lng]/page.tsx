@@ -14,7 +14,6 @@ export default function Home({
   params: { lng },
 }: Readonly<{ params: { lng: string } }>) {
   const [top, setTop] = useState<boolean>(true);
-  const { t } = useTranslation(lng);
 
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
