@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Fade, Bounce, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function Sponsors() {
   return (
@@ -8,60 +8,61 @@ export default function Sponsors() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="">
             {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 lg:pb-16">
-              {/* <h2 className="h2 mb-4">TTrusted by these partners, our community benefit from more than $50k in deals from the generous companies that support our community</h2> */}
-              <p className="text-3xl font-semibold ">
+            <div className="max-w-3xl mx-auto text-center pb-12 lg:pb-10">
+              <h2 className="text-3xl font-semibold ">
                 Our Partners in <span className="text-gradient-2">Success</span>
-              </p>
+              </h2>
             </div>
 
             {/* Items */}
-            <div className="max-w-4xl mx-auto grid gap-x-9 grid-cols-4 [&>div>img]:grayscale">
-              {/* Item OnTop */}
-              <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
+            <div className="max-w-4xl mx-auto grid gap-4 grid-cols-2 md:grid-cols-5 [&>div>img]:grayscale">
+              <div className="flex items-center justify-center py-2">
                 <Image
                   src="/images/camara.png"
                   alt="Camara Logo"
                   width={150}
-                  height={170}
+                  height={150}
+                  className="object-contain"
                 />
               </div>
 
-              {/* Item Mention */}
-              <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
+              <div className="flex items-center justify-center py-2">
                 <Image
                   src="/images/andes.png"
                   alt="Andes Logo"
                   width={140}
-                  height={80}
+                  height={150}
+                  className="object-contain"
                 />
               </div>
 
-              {/* <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
+              <div className="flex items-center justify-center py-2">
                 <Image
                   src="/images/makers.png"
                   alt="Makers Logo"
-                  width={90}
-                  height={100}
-                />
-              </div> */}
-
-              <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
-                <Image
-                  src="/images/logo_eafit_completo.png"
-                  alt="Eafit logo"
-                  width={160}
-                  height={80}
+                  width={85}
+                  height={150}
+                  className="object-contain"
                 />
               </div>
 
-              {/* Item Truora */}
-              <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
+              <div className="flex items-center justify-center py-2">
+                <Image
+                  src="/images/logo_eafit_completo.png"
+                  alt="Eafit Logo"
+                  width={170}
+                  height={150}
+                  className="object-contain"
+                />
+              </div>
+
+              <div className="flex items-center justify-center py-2">
                 <Image
                   src="/images/fs_logo.png"
-                  alt="FS logo"
+                  alt="FS Logo"
                   width={100}
-                  height={80}
+                  height={150}
+                  className="object-contain"
                 />
               </div>
             </div>

@@ -18,7 +18,7 @@ const profiles = [
     name: "Andrés Bilbao",
     description:
       "Andrés Bilbao is a distinguished co-founder of Rappi and Makers. Renowned for his strategic vision and entrepreneurial spirit, he has also invested in some of the most successful startups in the region.",
-    image: "/images/andres_bilbao_profile.png",
+    image: "/images/bilbao.png",
   },
 ];
 
