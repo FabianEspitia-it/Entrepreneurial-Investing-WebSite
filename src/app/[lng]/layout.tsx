@@ -17,7 +17,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Entrepreneurial Investing",
-  description: "Investing in the future of technology",
+  description: "Your guide to investing in startups",
 };
 
 export default function RootLayout({
