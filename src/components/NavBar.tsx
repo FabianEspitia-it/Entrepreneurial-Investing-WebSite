@@ -26,7 +26,7 @@ export default function NavBar() {
         !top && "backdrop-blur-lg shadow-lg duration-200 bg-white/90"
       )}
     >
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center p-4 pb-2 lg:px-11">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center p-4 lg:px-11">
         <a href="/">
           <Image
             src="/images/loguitio_verde.png"
@@ -35,8 +35,8 @@ export default function NavBar() {
             height={60}
           />
         </a>
-        <nav className="px-8">
-          <ul className="lg:flex space-x-10 text-gray-800 font-bold hidden">
+        <nav className="hidden lg:flex flex-1 justify-center px-8">
+          <ul className="flex space-x-10 text-gray-800 font-bold">
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#">Home</a>
             </li>
@@ -57,7 +57,7 @@ export default function NavBar() {
             </li>
           </ul>
         </nav>
-        <div className="flex gap-4 items-center w-fit">
+        <div className="flex gap-4 items-center">
           <button className="border border-EI_new_green text-EI_new_green p-2 rounded-xl hover:bg-EI_new_green hover:text-white hover:border-EI_new_green duration-200">
             Let&apos;s do it
           </button>

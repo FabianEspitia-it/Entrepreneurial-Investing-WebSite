@@ -28,7 +28,7 @@ export default function Team() {
       id="team"
       className="container mx-auto px-4 py-32 flex flex-col items-center"
     >
-      <Fade triggerOnce cascade>
+      <Fade triggerOnce>
         <h2 className="font-semibold text-3xl md:text-4xl">
           Meet Our <span className="text-gradient-2">Team</span>
         </h2>
