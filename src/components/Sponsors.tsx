@@ -37,7 +37,15 @@ export default function Sponsors() {
                 />
               </div>
 
-              {/* Item Faktory */}
+              {/* <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
+                <Image
+                  src="/images/makers.png"
+                  alt="Makers Logo"
+                  width={90}
+                  height={100}
+                />
+              </div> */}
+
               <div className="flex items-center justify-center py-2 col-span-2 lg:col-auto">
                 <Image
                   src="/images/logo_eafit_completo.png"
