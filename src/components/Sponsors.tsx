@@ -60,7 +60,7 @@ export default function Sponsors() {
                 <Image
                   src="/images/fs_logo.png"
                   alt="FS Logo"
-                  width={110}
+                  width={120}
                   height={150}
                   className="object-contain"
                 />
