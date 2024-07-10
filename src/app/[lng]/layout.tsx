@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { dir } from "i18next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const languages = ["en", "es"];
 
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang={lng} dir={dir(lng)}>
       <body className={poppins.className}>{children}</body>
+      <GoogleAnalytics gaId="G-5SJHQLFVCR" />
     </html>
   );
 }
