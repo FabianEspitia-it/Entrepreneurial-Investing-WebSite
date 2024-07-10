@@ -15,12 +15,12 @@ export default function Sponsors() {
             </div>
 
             {/* Items */}
-            <div className="max-w-4xl mx-auto grid gap-4 grid-cols-2 md:grid-cols-5 [&>div>img]:grayscale">
+            <div className="max-w-4xl mx-auto grid md:gap-1 gap-5 grid-cols-2 md:grid-cols-5 [&>div>img]:grayscale">
               <div className="flex items-center justify-center py-2">
                 <Image
                   src="/images/camara.png"
                   alt="Camara Logo"
-                  width={150}
+                  width={170}
                   height={150}
                   className="object-contain"
                 />
@@ -28,9 +28,9 @@ export default function Sponsors() {
 
               <div className="flex items-center justify-center py-2">
                 <Image
-                  src="/images/andes.png"
-                  alt="Andes Logo"
-                  width={140}
+                  src="/images/uniandinos.png"
+                  alt="Uniandinos Logo"
+                  width={120}
                   height={150}
                   className="object-contain"
                 />
@@ -50,7 +50,7 @@ export default function Sponsors() {
                 <Image
                   src="/images/logo_eafit_completo.png"
                   alt="Eafit Logo"
-                  width={170}
+                  width={180}
                   height={150}
                   className="object-contain"
                 />
@@ -60,7 +60,7 @@ export default function Sponsors() {
                 <Image
                   src="/images/fs_logo.png"
                   alt="FS Logo"
-                  width={100}
+                  width={110}
                   height={150}
                   className="object-contain"
                 />
