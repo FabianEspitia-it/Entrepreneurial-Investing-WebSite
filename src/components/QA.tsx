@@ -50,7 +50,7 @@ function QuestionItem({ title, answer }: { title: string; answer: string }) {
 export default function Questions() {
   return (
     <>
-      <section id="questions" className="relative px-4 pt-32">
+      <section id="questions" className="relative px-4 pt-28">
         <Fade triggerOnce>
           <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
             Frequently Asked Questions <br /> You Have the{" "}
@@ -118,10 +118,10 @@ export default function Questions() {
             <p className="text-xl text-black max-w-4xl mx-auto text-center">
               Still have more questions? Contact us{" "}
               <a
-                href="mailto:info@fundraisingschool.com"
+                href="mailto:sofia@entrepreneurial.vc"
                 className="text-EI_new_green hover:text-EI_yellow transition-colors"
               >
-                info@entrepreneurial.com
+                sofia@entrepreneurial.vc
               </a>{" "}
             </p>
           </div>

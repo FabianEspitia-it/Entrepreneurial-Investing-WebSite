@@ -23,7 +23,7 @@ export default function NavBar() {
     <header
       className={clsx(
         "fixed top-0 left-0 w-full z-50 bg-white",
-        !top && "backdrop-blur-lg shadow-lg duration-200 bg-white/90"
+        !top && "backdrop-blur-lg shadow-md duration-200 bg-white/90"
       )}
     >
       <div className="max-w-screen-xl mx-auto flex justify-between items-center p-4 lg:px-10">
