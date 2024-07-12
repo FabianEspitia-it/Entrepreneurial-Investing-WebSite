@@ -75,7 +75,7 @@ export default function MobileMenu() {
           <ul className="px-5 py-2">
             <li>
               <a
-                href="/#"
+                href="#"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -84,7 +84,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="/#about"
+                href="#about"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -93,7 +93,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="/#team"
+                href="#team"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -102,7 +102,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="/#program"
+                href="#program"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -111,7 +111,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="/#pitch"
+                href="#pitch"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -120,7 +120,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="/#questions"
+                href="#questions"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
