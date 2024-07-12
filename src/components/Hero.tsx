@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Hero() {
   return (
-    <section className="relative flex items-center pt-44 md:pb-28 pb-20">
+    <section className="relative flex items-center pt-44 md:pb-24 pb-20">
       <Fade triggerOnce cascade duration={900}>
         <div className="text-start">
           <h1 className="text-4xl md:text-7xl md:mb-4 font-extrabold text-gray-900 md:pl-8 pl-2">
