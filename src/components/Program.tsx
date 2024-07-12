@@ -104,7 +104,7 @@ function ModuleItem({
 
 export default function Modules() {
   return (
-    <section id="program" className="relative px-4 py-28">
+    <section id="program" className="relative px-4 md:py-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-5">
           Program <span className="text-gradient-2">Modules</span> for

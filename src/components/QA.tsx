@@ -50,7 +50,7 @@ function QuestionItem({ title, answer }: { title: string; answer: string }) {
 export default function Questions() {
   return (
     <>
-      <section id="questions" className="relative px-4 pt-28">
+      <section id="questions" className="relative px-4 md:pt-28 pt-20">
         <Fade triggerOnce>
           <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
             Frequently Asked Questions <br /> You Have the{" "}

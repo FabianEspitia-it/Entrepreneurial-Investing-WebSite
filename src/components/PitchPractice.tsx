@@ -9,7 +9,7 @@ export default function PitchPractice() {
   return (
     <section
       id="pitch"
-      className="relative flex flex-col items-center md:px-44 py-28"
+      className="relative flex flex-col items-center md:px-44 md:py-28 py-20"
     >
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold mb-4 text-center">
