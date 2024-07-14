@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Sponsors() {
   return (
-    <section className="relative md:py-28 py-20">
+    <section className="relative md:pt-28 py-20">
       <Fade cascade triggerOnce>
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="">

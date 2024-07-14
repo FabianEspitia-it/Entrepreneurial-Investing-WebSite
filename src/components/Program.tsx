@@ -104,13 +104,13 @@ function ModuleItem({
 
 export default function Modules() {
   return (
-    <section id="program" className="relative px-4 md:py-28 py-20">
+    <section id="program" className="relative px-4 md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-5">
           Program <span className="text-gradient-2">Modules</span> for
           Entrepreneurial <span className="text-gradient-2">Investors</span>
         </h2>
-        <div className="md:max-w-4xl mx-auto py-6">
+        <div className="md:max-w-4xl mx-auto py-4">
           {modules.map((module, index) => (
             <div key={index}>
               <ModuleItem

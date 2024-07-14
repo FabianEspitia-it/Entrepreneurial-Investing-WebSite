@@ -26,7 +26,7 @@ export default function Team() {
   return (
     <section
       id="team"
-      className="container mx-auto px-4 md:py-28 py-20 flex flex-col items-center"
+      className="container mx-auto px-4 md:pt-28 py-20 flex flex-col items-center"
     >
       <Fade triggerOnce>
         <h2 className="font-semibold text-3xl md:text-4xl">

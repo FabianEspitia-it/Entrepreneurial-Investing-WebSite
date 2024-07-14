@@ -14,7 +14,7 @@ export default function AboutUs() {
   ];
 
   return (
-    <section id="about" className="md:py-28 py-20">
+    <section id="about" className="md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center">
           About{" "}
