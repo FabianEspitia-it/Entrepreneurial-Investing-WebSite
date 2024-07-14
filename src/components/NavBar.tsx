@@ -65,15 +65,15 @@ export default function NavBar() {
           </ul>
         </nav>
         <div className="flex gap-4 items-center px-6">
-          <button className="border border-EI_new_green text-EI_new_green p-2 rounded-xl hover:bg-EI_new_green hover:text-white hover:border-EI_new_green duration-200">
-            <a
-              href="https://airtable.com/appjIbygnSo12r4dh/shrbE7RA2RjpsHJ34"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Apply Now
-            </a>
-          </button>
+          <a
+            className="border border-EI_new_green text-EI_new_green p-2 rounded-xl hover:bg-EI_new_green hover:text-white hover:border-EI_new_green duration-200"
+            href="https://airtable.com/appjIbygnSo12r4dh/shrbE7RA2RjpsHJ34"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Apply Now
+          </a>
+
           <MobileMenu />
         </div>
       </div>
