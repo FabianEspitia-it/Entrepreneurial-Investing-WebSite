@@ -111,7 +111,7 @@ export default function Questions() {
 
             <QuestionItem
               title="How can I get in touch with you?"
-              answer="Feel free to email us at sofia@entrepreneurial.vc."
+              answer="Feel free to email us at sofia@entrepreneurial.vc"
             />
           </div>
           <div className="relative px-4 my-14">
