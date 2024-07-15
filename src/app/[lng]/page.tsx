@@ -10,6 +10,7 @@ import NavBar from "@/components/NavBar";
 import { useTranslation } from "../i18n/index";
 import { Fade } from "react-awesome-reveal";
 import Team from "@/components/Team";
+import ModulesEight from "@/components/Program8";
 
 export default function Home({
   params: { lng },
@@ -33,10 +34,11 @@ export default function Home({
 
       <main className="flex flex-col justify-center items-center flex-1 px-8 max-w-screen-xl mx-auto">
         <Hero />
-        <AboutUs />
         <Team />
         <Modules />
+        <ModulesEight />
         <PitchPractice />
+        <AboutUs />
         <Sponsors />
         <Questions />
       </main>

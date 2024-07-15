@@ -12,30 +12,33 @@ import {
 const modules = [
   {
     title: "Module 1: Intro to VC",
-    subtopics: ["Understanding venture capital and angel investing strategies"],
+    subtopics: ["What is VC", "Story of VC industry", "Venture Deals"],
     icon: FaCheckCircle,
   },
   {
     title: "Module 2: Sourcing",
     subtopics: [
-      "Build an angel investor brand",
-      "Learn how to gather top-quality dealflow by developing an angel brand",
+      "How to source correctly",
+      "Where to find founders?",
+      "Content as a sourcing engine",
+      "Networking",
     ],
     icon: FaSearch,
   },
   {
-    title: "Module 3: Assesing and portafolio construction",
+    title: "Module 3: Selecting",
     subtopics: [
-      "Learn how evaluate decks and deals",
-      "Master the art of pattern recognition to select the best founders & deals",
-      "Framework to decide portfolio construction",
+      "Assessing Founders",
+      "Assessing Thesis",
+      "Pattern Recognition",
     ],
     icon: FaClipboardCheck,
   },
   {
-    title: "Module 4: lessons learned in angel investing",
+    title: "Module 4: Servicing",
     subtopics: [
-      "Roundatable with multiple VC investors to reflect about lessons learned during Agel Investing",
+      "The concept of Venture Assistant.",
+      "Helping with Fundraising, Hiring, Operations, Boards, etc",
     ],
     icon: FaHandsHelping,
   },
@@ -99,12 +102,12 @@ function ModuleItem({
   );
 }
 
-export default function Modules() {
+export default function ModulesEight() {
   return (
-    <section id="program" className="relative px-4 md:pt-28 py-20">
+    <section id="program8" className="relative px-4 md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-5">
-          6-Weeks <span className="text-gradient-2">Program</span> for
+          8-Weeks <span className="text-gradient-2">Program</span> for
           Entreprenurial <span className="text-gradient-2">Investors</span>
         </h2>
         <div className="md:max-w-4xl mx-auto py-4">

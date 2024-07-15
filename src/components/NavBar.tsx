@@ -48,16 +48,16 @@ export default function NavBar() {
               <a href="#">Home</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
-              <a href="#about">About Us</a>
-            </li>
-            <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#team">Team</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
-              <a href="#program">Program</a>
+              <a href="#program">Programs</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#pitch">Pitch Practice</a>
+            </li>
+            <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
+              <a href="#about">About Us</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#questions">Q&A</a>
