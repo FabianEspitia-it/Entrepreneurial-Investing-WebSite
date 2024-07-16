@@ -127,7 +127,7 @@ export default function ModulesEight() {
           8-Weeks <span className="text-gradient-2">Program</span> for
           Entreprenurial <span className="text-gradient-2">Investors</span>
         </h2>
-        <div className="md:max-w-4xl mx-auto py-4">
+        <div className="md:max-w-4xl mx-auto pt-4">
           {modules.map((module, index) => (
             <div key={index}>
               <ModuleItem
