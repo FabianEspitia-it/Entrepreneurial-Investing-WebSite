@@ -94,7 +94,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="#program"
+                href="#6week"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
@@ -103,7 +103,7 @@ export default function MobileMenu() {
             </li>
             <li>
               <a
-                href="#program8"
+                href="#8week"
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
