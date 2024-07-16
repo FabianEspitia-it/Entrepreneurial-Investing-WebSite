@@ -98,7 +98,16 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                Programs
+                6-Weeks
+              </a>
+            </li>
+            <li>
+              <a
+                href="#program8"
+                onClick={() => setMobileNavOpen(false)}
+                className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+              >
+                8-Weeks
               </a>
             </li>
             <li>

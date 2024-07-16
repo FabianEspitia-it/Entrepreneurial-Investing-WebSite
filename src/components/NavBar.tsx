@@ -43,7 +43,7 @@ export default function NavBar() {
           /> */}
         </a>
         <nav className="hidden lg:flex flex-1 justify-center px-8">
-          <ul className="flex space-x-10 text-gray-800 font-bold">
+          <ul className="flex space-x-7 text-gray-800 font-bold">
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#">Home</a>
             </li>
@@ -51,7 +51,10 @@ export default function NavBar() {
               <a href="#team">Team</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
-              <a href="#program">Programs</a>
+              <a href="#program">6-Weeks</a>
+            </li>
+            <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
+              <a href="#program8">8-Weeks</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#pitch">Pitch Practice</a>
