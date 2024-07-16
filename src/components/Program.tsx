@@ -7,6 +7,7 @@ import {
   FaSearch,
   FaClipboardCheck,
   FaHandsHelping,
+  FaStar,
 } from "react-icons/fa";
 
 const modules = [
@@ -38,6 +39,14 @@ const modules = [
       "Roundatable with multiple VC investors to reflect about lessons learned during Agel Investing",
     ],
     icon: FaHandsHelping,
+  },
+  {
+    title: "Module 5: Premium Module",
+    subtopics: [
+      "Live Pitch with top founders, and the beast early-stage dealflow of LATAM",
+      "Live networking dinners",
+    ],
+    icon: FaStar,
   },
 ];
 

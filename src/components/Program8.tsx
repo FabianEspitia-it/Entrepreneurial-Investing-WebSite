@@ -7,6 +7,8 @@ import {
   FaSearch,
   FaClipboardCheck,
   FaHandsHelping,
+  FaFileContract,
+  FaStar,
 } from "react-icons/fa";
 
 const modules = [
@@ -41,6 +43,21 @@ const modules = [
       "Helping with Fundraising, Hiring, Operations, Boards, etc",
     ],
     icon: FaHandsHelping,
+  },
+  {
+    title: "Module 5: Term Sheets",
+    subtopics: [
+      "Understand and learn how to apply the economic & control terms of the Term Sheet",
+    ],
+    icon: FaFileContract,
+  },
+  {
+    title: "Module 6: Premium Module",
+    subtopics: [
+      "Live Pitch with top founders, and the beast early-stage dealflow of LATAM",
+      "Live networking dinners",
+    ],
+    icon: FaStar,
   },
 ];
 
