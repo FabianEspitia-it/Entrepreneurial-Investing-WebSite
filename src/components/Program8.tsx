@@ -14,33 +14,30 @@ import {
 const modules = [
   {
     title: "Module 1: Intro to VC",
-    subtopics: ["What is VC", "Story of VC industry", "Venture Deals"],
+    subtopics: ["Understanding venture capital and angel investing strategies"],
     icon: FaCheckCircle,
   },
   {
     title: "Module 2: Sourcing",
     subtopics: [
-      "How to source correctly",
-      "Where to find founders?",
-      "Content as a sourcing engine",
-      "Networking",
+      "Build an angel investor brand",
+      "Learn how to gather top-quality dealflow by developing an angel brand",
     ],
     icon: FaSearch,
   },
   {
-    title: "Module 3: Selecting",
+    title: "Module 3: Assesing and portafolio construction",
     subtopics: [
-      "Assessing Founders",
-      "Assessing Thesis",
-      "Pattern Recognition",
+      "Learn how evaluate decks and deals",
+      "Master the art of pattern recognition to select the best founders & deals",
+      "Framework to decide portfolio construction",
     ],
     icon: FaClipboardCheck,
   },
   {
-    title: "Module 4: Servicing",
+    title: "Module 4: lessons learned in angel investing",
     subtopics: [
-      "The concept of Venture Assistant.",
-      "Helping with Fundraising, Hiring, Operations, Boards, etc",
+      "Roundatable with multiple VC investors to reflect about lessons learned during Agel Investing",
     ],
     icon: FaHandsHelping,
   },
