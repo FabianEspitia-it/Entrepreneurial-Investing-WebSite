@@ -11,7 +11,7 @@ const profiles = [
   {
     name: "Laura Gónzalez",
     description:
-      "Laura González serves as the Chief Business Officer for Strategic Growth. With a wealth of experience in driving business expansion and strategic initiatives, she excels at identifying and capitalizing on growth opportunities.",
+      "Laura González serves as the Chief Business Officer for Strategic Growth. With a wealth of experience in driving business expansion, structured finance, and as a VC investor, she excels at identifying and capitalizing on growth opportunities through strategic initiatives",
     image: "/images/laura_g2.png",
   },
   {
