@@ -48,9 +48,9 @@ export default function Sponsors() {
 
               <div className="flex items-center justify-center py-2">
                 <Image
-                  src="/images/logo_eafit_completo.png"
+                  src="/images/ongoing.png"
                   alt="Eafit Logo"
-                  width={180}
+                  width={190}
                   height={150}
                   className="object-contain"
                 />
@@ -58,7 +58,7 @@ export default function Sponsors() {
 
               <div className="flex items-center justify-center py-2">
                 <Image
-                  src="/images/fs_logo.png"
+                  src="/images/fs.com_logo.png"
                   alt="FS Logo"
                   width={120}
                   height={150}
