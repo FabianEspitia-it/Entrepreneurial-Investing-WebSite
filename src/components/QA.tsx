@@ -37,7 +37,7 @@ function QuestionItem({ title, answer }: { title: string; answer: string }) {
           </Disclosure.Button>
 
           <Animation>
-            <Disclosure.Panel className="text-gray-800 my-4 px-4">
+            <Disclosure.Panel className="text-gray-800 my-4 px-4 max-w-3xl">
               {answer}
             </Disclosure.Panel>
           </Animation>
@@ -80,33 +80,6 @@ export default function Questions() {
               title="Are there any prerequisites to join the program?"
               answer="No specific prior knowledge is required, although a basic understanding of finance and business can be helpful. The program is designed to be accessible to both beginners and experienced investors."
             />
-            <hr className="my-4 w-full border-gray-300" />
-
-            <Disclosure>
-              {({ open }: { open: boolean }) => (
-                <>
-                  <Disclosure.Button className="font-semibold text-lg text-left flex gap-2 justify-between items-center w-full py-3 px-4 bg-white hover:bg-gray-100 transition-colors duration-300 rounded-lg shadow-md">
-                    <p className="block max-w-[90%]">
-                      Data Sharing and Privacy Policy
-                    </p>
-                    <ChevronDownIcon
-                      className={clsx(
-                        "w-6 h-6 transition-transform",
-                        open ? "rotate-180" : "rotate-0"
-                      )}
-                    />
-                  </Disclosure.Button>
-
-                  <Animation>
-                    <Disclosure.Panel className="text-blue-600 my-4 px-4">
-                      <Link href={"/data_sharing"}>
-                        Data Sharing and Privacy Policy Page
-                      </Link>
-                    </Disclosure.Panel>
-                  </Animation>
-                </>
-              )}
-            </Disclosure>
             <hr className="my-4 w-full border-gray-300" />
 
             <QuestionItem
