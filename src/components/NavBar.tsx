@@ -51,7 +51,7 @@ export default function NavBar() {
               <a href="#team">Team</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
-              <a href="#6weeks">6-Weeks</a>
+              <a href="#6weeks">7-Weeks</a>
             </li>
             <li className="border-b-2 border-transparent px-1 pt-1 hover:border-EI_new_green hover:text-gradient-2 duration-200">
               <a href="#8weeks">8-Weeks</a>

@@ -7,6 +7,7 @@ import {
   FaSearch,
   FaClipboardCheck,
   FaHandsHelping,
+  FaFileContract,
   FaStar,
 } from "react-icons/fa";
 
@@ -40,8 +41,17 @@ const modules = [
     ],
     icon: FaHandsHelping,
   },
+
   {
-    title: "Module 5: Premium Module",
+    title: "Module 5: Term Sheets",
+    subtopics: [
+      "Understand and learn how to apply the economic & control terms of the Term Sheet",
+    ],
+    icon: FaFileContract,
+  },
+
+  {
+    title: "Module 6: Premium Module",
     subtopics: [
       "Live Pitch with top founders, and the beast early-stage dealflow of LATAM",
       "Live networking dinners",
@@ -113,7 +123,7 @@ export default function Modules() {
     <section id="6weeks" className="relative px-4 md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-5">
-          6-Weeks <span className="text-gradient-2">Program</span> for
+          7-Weeks <span className="text-gradient-2">Program</span> for
           Entreprenurial <span className="text-gradient-2">Investors</span>
         </h2>
         <div className="md:max-w-4xl mx-auto pt-4">
