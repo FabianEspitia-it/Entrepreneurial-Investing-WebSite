@@ -1,1 +1,5 @@
-hola
+<-- TEAM -->
+
+ - Fabian Espitia: https://github.com/FabianEspitia-it
+ - Sergio Rey: https://github.com/bysergr
+ - Julian Bolaños: https://github.com/julian-b24
