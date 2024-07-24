@@ -1,15 +1,17 @@
+import { useTranslations } from "next-intl";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 export default function AboutUs() {
+  const t = useTranslations("About");
   const cardData = [
     {
-      title: "Empowering Investors",
-      text: "Your gateway to mastering the art of investing in startups across Latin America. Our mission is to empower aspiring and seasoned investors with the knowledge, tools, and network needed to identify and invest in the most promising startups in the region.",
+      title: t("title_1"),
+      text: t("text_1"),
     },
     {
-      title: "Our Belief",
-      text: "At Entrepreneurial Investing, we believe that investing in startups should be accessible and informed. Our team comprises experienced investors, industry experts, and passionate professionals dedicated to demystifying the startup investment landscape in Latam.",
+      title: t("title_2"),
+      text: t("text_2"),
     },
   ];
 
@@ -17,8 +19,10 @@ export default function AboutUs() {
     <section id="about" className="md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center">
-          About{" "}
-          <span className="text-gradient-2">Entrepreneurial Investing</span>
+          {t("about")}{" "}
+          <span className="text-gradient-2">
+            {t("entrepreneurial_investing")}
+          </span>
         </h2>
         <div className="flex flex-wrap justify-center gap-14 pt-10">
           {cardData.map((card, index) => (

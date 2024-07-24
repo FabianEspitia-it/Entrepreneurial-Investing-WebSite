@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
 
 export default function Sponsors() {
+  const t = useTranslations("Partners");
   return (
     <section className="relative md:pt-28 py-20">
       <Fade cascade triggerOnce>
@@ -10,7 +12,8 @@ export default function Sponsors() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 lg:pb-10">
               <h2 className="text-3xl font-semibold ">
-                Our Partners in <span className="text-gradient-2">Success</span>
+                {t("our_partners")}{" "}
+                <span className="text-gradient-2">{t("success")}</span>
               </h2>
             </div>
 

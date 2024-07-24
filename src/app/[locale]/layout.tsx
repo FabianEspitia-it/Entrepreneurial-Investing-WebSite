@@ -1,14 +1,10 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { dir } from "i18next";
 import { GoogleAnalytics } from "@next/third-parties/google";
-
-const languages = ["en", "es"];
-
-export async function generateStaticParams() {
-  return languages.map((lng) => ({ lng }));
-}
+import { getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -21,16 +17,22 @@ export const metadata: Metadata = {
   description: "Your guide to investing in startups",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-  params: { lng },
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
-  params: { lng: string };
+  params: { locale: string };
 }>) {
+  const messages = await getMessages();
+
   return (
-    <html lang={lng} dir={dir(lng)}>
-      <body className={poppins.className}>{children}</body>
+    <html lang={locale}>
+      <body className={poppins.className}>
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
       <GoogleAnalytics gaId="G-5SJHQLFVCR" />
     </html>
   );

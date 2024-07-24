@@ -3,9 +3,18 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
+
+  const t = useTranslations("Navbar");
+  const locale = useLocale();
+
+  const flagSrc =
+    locale === "en" ? "/images/españa.png" : "/images/estados_unidos.png";
+  const targetLocale = locale === "en" ? "es" : "en";
 
   const trigger = useRef<HTMLButtonElement>(null);
   const mobileNav = useRef<HTMLDivElement>(null);
@@ -79,7 +88,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                Home
+                {t("home")}
               </a>
             </li>
 
@@ -89,7 +98,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                Team
+                {t("team")}
               </a>
             </li>
             <li>
@@ -98,7 +107,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                7-Weeks
+                {t("7weeks")}
               </a>
             </li>
             <li>
@@ -107,7 +116,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                8-Weeks
+                {t("8weeks")}
               </a>
             </li>
             <li>
@@ -116,7 +125,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                Pitch practice
+                {t("pitch")}
               </a>
             </li>
             <li>
@@ -125,7 +134,7 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                About Us
+                {t("about")}
               </a>
             </li>
             <li>
@@ -134,8 +143,19 @@ export default function MobileMenu() {
                 onClick={() => setMobileNavOpen(false)}
                 className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
               >
-                Q&A
+                {t("qa")}
               </a>
+            </li>
+            <li className="pl-5 pt-2">
+              <Link href={targetLocale} locale={locale === "en" ? "es" : "en"}>
+                <Image
+                  src={flagSrc}
+                  alt={locale === "en" ? "Español" : "English"}
+                  width={23}
+                  height={16}
+                  className="rounded-full"
+                />
+              </Link>
             </li>
           </ul>
         </Transition>

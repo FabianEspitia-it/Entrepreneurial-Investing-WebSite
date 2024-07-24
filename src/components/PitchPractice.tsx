@@ -4,8 +4,10 @@ import React from "react";
 import Hands from "./icons/HandsSVG";
 import Org from "./icons/OrgSVG";
 import { Fade } from "react-awesome-reveal";
+import { useTranslations } from "next-intl";
 
 export default function PitchPractice() {
+  const t = useTranslations("Pitch");
   return (
     <section
       id="pitch"
@@ -13,39 +15,37 @@ export default function PitchPractice() {
     >
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold mb-4 text-center">
-          Our Weekly Pitch Practice Is Not Just a Routine; It Is a{" "}
-          <span className="text-gradient-2">Ritual of Excellence</span>
+          {t("our_pitch")}{" "}
+          <span className="text-gradient-2">{t("ritual")}</span>
         </h2>
         <p className="text-center md:text-base text-sm text-gray-700">
-          Are you looking for capital or just want to improve your communication
-          skills? This is the place for you!
+          {t("description")}
           <br />
-          Come practice your pitch and receive feedback from experienced
-          investors in the region
+          {t("description_2")}
         </p>
         <div className="md:flex md:flex-row md:gap-7 gap-9 pt-8 grid grid-cols-2 sm:grid-cols-2">
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-32 md:size-40 border-2">
             <Org />
             <p className="text-center md:text-base text-sm mt-4 text-gray-700">
-              Present your pitch in 5 minutes
+              {t("first_ball")}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-32 md:size-40 border-2">
             <Dialog />
             <p className="text-center md:text-base text-sm mt-4 text-gray-700">
-              Receives feedback
+              {t("second_ball")}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-32 md:size-40 border-2">
             <Hands />
             <p className="text-center md:text-base text-sm mt-4 text-gray-700">
-              Connect with investors
+              {t("third_ball")}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center rounded-full shadow-xl p-4 size-32 md:size-40 border-2">
             <Growth />
             <p className="text-center md:text-base text-sm mt-4 text-gray-700">
-              Improve your communication and pitch
+              {t("fourth_ball")}
             </p>
           </div>
         </div>

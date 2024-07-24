@@ -1,6 +1,7 @@
 import { Disclosure, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 import { Fade, Bounce, Zoom } from "react-awesome-reveal";
 import {
   FaCheckCircle,
@@ -10,55 +11,6 @@ import {
   FaFileContract,
   FaStar,
 } from "react-icons/fa";
-
-const modules = [
-  {
-    title: "Module 1: Intro to VC",
-    subtopics: ["Understanding venture capital and angel investing strategies"],
-    icon: FaCheckCircle,
-  },
-  {
-    title: "Module 2: Sourcing",
-    subtopics: [
-      "Build an angel investor brand",
-      "Learn how to gather top-quality dealflow by developing an angel brand",
-    ],
-    icon: FaSearch,
-  },
-  {
-    title: "Module 3: Assesing and portafolio construction",
-    subtopics: [
-      "Learn how evaluate decks and deals",
-      "Master the art of pattern recognition to select the best founders & deals",
-      "Framework to decide portfolio construction",
-    ],
-    icon: FaClipboardCheck,
-  },
-  {
-    title: "Module 4: lessons learned in angel investing",
-    subtopics: [
-      "Roundatable with multiple VC investors to reflect about lessons learned during Agel Investing",
-    ],
-    icon: FaHandsHelping,
-  },
-
-  {
-    title: "Module 5: Term Sheets",
-    subtopics: [
-      "Understand and learn how to apply the economic & control terms of the Term Sheet",
-    ],
-    icon: FaFileContract,
-  },
-
-  {
-    title: "Module 6: Premium Module",
-    subtopics: [
-      "Live Pitch with top founders, and the beast early-stage dealflow of LATAM",
-      "Live networking dinners",
-    ],
-    icon: FaStar,
-  },
-];
 
 function Animation({ children }: { children: JSX.Element }) {
   return (
@@ -119,12 +71,48 @@ function ModuleItem({
 }
 
 export default function Modules() {
+  const t = useTranslations("Program");
+  const modules = [
+    {
+      title: t("module1"),
+      subtopics: [t("first_topic")],
+      icon: FaCheckCircle,
+    },
+    {
+      title: t("module2"),
+      subtopics: [t("second_topic"), t("third_topic")],
+      icon: FaSearch,
+    },
+    {
+      title: t("module3"),
+      subtopics: [t("fourth_topic"), t("fifth_topic"), t("sixth_topic")],
+      icon: FaClipboardCheck,
+    },
+    {
+      title: t("module4"),
+      subtopics: [t("seventh_topic")],
+      icon: FaHandsHelping,
+    },
+
+    {
+      title: t("module5"),
+      subtopics: [t("eighth_topic")],
+      icon: FaFileContract,
+    },
+
+    {
+      title: t("module6"),
+      subtopics: [t("ninth_topic"), t("tenth_topic")],
+      icon: FaStar,
+    },
+  ];
   return (
     <section id="6weeks" className="relative px-4 md:pt-28 py-20">
       <Fade triggerOnce>
         <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-5">
-          7-Weeks <span className="text-gradient-2">Program</span> for
-          Entreprenurial <span className="text-gradient-2">Investors</span>
+          {t("7weeks")} <span className="text-gradient-2">{t("program")}</span>{" "}
+          {t("for_entrepreneurial")}{" "}
+          <span className="text-gradient-2">{t("investors")}</span>
         </h2>
         <div className="md:max-w-4xl mx-auto pt-4">
           {modules.map((module, index) => (

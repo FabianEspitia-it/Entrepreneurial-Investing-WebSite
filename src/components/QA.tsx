@@ -3,6 +3,7 @@
 import { Disclosure, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Fade, Bounce, Zoom } from "react-awesome-reveal";
 
@@ -48,53 +49,40 @@ function QuestionItem({ title, answer }: { title: string; answer: string }) {
 }
 
 export default function Questions() {
+  const t = useTranslations("Qa");
   return (
     <>
       <section id="questions" className="relative px-4 md:pt-28 pt-20">
         <Fade triggerOnce>
           <h2 className="md:text-4xl text-3xl font-semibold text-center text-gray-900 pb-10 md:pb-10">
-            Frequently Asked Questions <br /> You Have the{" "}
-            <span className="text-gradient-2">Questions</span>, We Have the{" "}
-            <span className="text-gradient-2">Answers</span>
+            {t("frequently")} <br /> {t("you_have")}{" "}
+            <span className="text-gradient-2">{t("questions")}</span>,{" "}
+            {t("we_have")}{" "}
+            <span className="text-gradient-2">{t("answers")}</span>
           </h2>
           <div className="max-w-4xl mx-auto border border-gray-200 rounded-xl p-6 bg-white shadow-lg">
-            <QuestionItem
-              title="What is the Entrepreneurial Investing program about?"
-              answer="The program offers comprehensive training on how to invest in startups in Latin America. It includes strategies, tips, and secrets from regional experts to make informed decisions and maximize investment returns."
-            />
+            <QuestionItem title={t("question_1")} answer={t("answer_1")} />
             <hr className="my-4 w-full border-gray-300" />
 
-            <QuestionItem
-              title="Who are the experts behind the program?"
-              answer="The program is designed and led by experienced investors and professionals from the Latam entrepreneurial ecosystem, with years of successful investment experience and deep market knowledge."
-            />
+            <QuestionItem title={t("question_2")} answer={t("answer_2")} />
             <hr className="my-4 w-full border-gray-300" />
 
-            <QuestionItem
-              title="What will I learn in the program?"
-              answer="You will learn how to identify promising startups, conduct effective due diligence, understand different business models, evaluate founding teams, and much more. You will also receive practical advice and real case studies."
-            />
+            <QuestionItem title={t("question_3")} answer={t("answer_3")} />
             <hr className="my-4 w-full border-gray-300" />
 
-            <QuestionItem
-              title="Are there any prerequisites to join the program?"
-              answer="No specific prior knowledge is required, although a basic understanding of finance and business can be helpful. The program is designed to be accessible to both beginners and experienced investors."
-            />
+            <QuestionItem title={t("question_4")} answer={t("answer_4")} />
             <hr className="my-4 w-full border-gray-300" />
 
-            <QuestionItem
-              title="How can I get in touch with you?"
-              answer="Feel free to email us at sofia@entrepreneurial.vc"
-            />
+            <QuestionItem title={t("question_5")} answer={t("answer_5")} />
           </div>
           <div className="relative px-4 my-14">
             <p className="text-xl text-black max-w-4xl mx-auto text-center">
-              Still have more questions? Contact us{" "}
+              {t("still_questions")}{" "}
               <a
                 href="mailto:sofia@entrepreneurial.vc"
                 className="text-EI_new_green hover:text-EI_yellow transition-colors"
               >
-                sofia@entrepreneurial.vc
+                {t("email")}
               </a>{" "}
             </p>
           </div>

@@ -1,0 +1,105 @@
+{
+  "Navbar":{
+      "home": "Home",
+      "team": "Team",
+      "7weeks": "7-Weeks",
+      "8weeks": "8-Weeks",
+      "pitch": "Pitch Practice",
+      "about": "About Us",
+      "qa": "Q&A",
+      "apply":  "Apply Now"
+
+
+  },
+  "Hero":{
+    "learn_to": "Learn To",
+    "invest": "Invest",
+    "in": "In",
+    "startups": "Startups",
+    "like_the": "Like The",
+    "best": "Best In Latam",
+    "subtopic": "To empower both aspiring, seasoned investors and family offices with the knowledge, tools, and network needed to identify and invest in the most promising startups in Latin America."
+  },
+
+  "Team":{
+    "meet_our": "Meet Our",
+    "team": "Team", 
+    "description": "Our team consists of the top investors in Latin America, bringing a wealth of experience and a proven track record in the startup investment world",
+    "laura_gaviria": "Laura Gaviria is a co-founder of Team Faktory AI and a former executive at SoftBank. As an angel investor, she has a keen eye for emerging technologies and high-potential startups.",
+    "laura_gonzalez": "Laura González serves as the Chief Business Officer for Strategic Growth. With a wealth of experience in driving business expansion, structured finance, and as a VC investor, she excels at identifying and capitalizing on growth opportunities through strategic initiatives.",
+    "andres_bilbao": "Andrés Bilbao is a distinguished co-founder of Rappi and Makers. Renowned for his strategic vision and entrepreneurial spirit, he has also invested in some of the most successful startups in the region."
+
+  },
+
+  "Program":{
+    "7weeks": "7-Weeks", 
+    "8weeks": "8-Weeks",
+    "program": "Program",
+    "for_entrepreneurial": "for Entrepreneurial",
+    "investors": "Investors",
+    "module1": "Module 1: Intro to VC",
+    "first_topic": "Understanding venture capital and angel investing strategies",
+    "second_topic": "Build an angel investor brand",
+    "third_topic": "Learn how to gather top-quality dealflow by developing an angel brand",
+    "fourth_topic": "Learn how evaluate decks and deals",
+    "fifth_topic": "Master the art of pattern recognition to select the best founders & deals",
+    "sixth_topic": "Framework to decide portfolio construction",
+    "seventh_topic": "Roundatable with multiple VC investors to reflect about lessons learned during Agel Investing",
+    "eighth_topic": "Understand and learn how to apply the economic & control terms of the Term Sheet",
+    "ninth_topic": "Live Pitch with top founders, and the beast early-stage dealflow of LATAM",
+    "tenth_topic": "Live networking dinners",
+    "module2": "Module 2: Sourcing",
+    "module3": "Module 3: Assesing and portafolio construction",
+    "module4": "Module 4: lessons learned in angel investing",
+    "module5": "Module 5: Term Sheets",
+    "module6": "Module 6: Premium Module"
+  },
+
+  "Pitch": {
+    "our_pitch": "Our Weekly Pitch Practice Is Not Just a Routine; It Is a",
+    "ritual": "Ritual of Excellence",
+    "description": "Are you looking for capital or just want to improve your communication skills? This is the place for you!",
+    "description_2": "Come practice your pitch and receive feedback from experienced investors in the region",
+    "first_ball": "Present your pitch in 5 minutes",
+    "second_ball": "Receives feedback",
+    "third_ball": "Connect with investors",
+    "fourth_ball": "Improve your communication and pitch"
+  },
+
+  "About": {
+    "about": "About",
+    "entrepreneurial_investing": "Entrepreneurial Investing",
+    "title_1": "Empowering Investors",
+    "title_2": "Our Belief",
+    "text_1": "Your gateway to mastering the art of investing in startups across Latin America. Our mission is to empower aspiring and seasoned investors with the knowledge, tools, and network needed to identify and invest in the most promising startups in the region.",
+    "text_2": "At Entrepreneurial Investing, we believe that investing in startups should be accessible and informed. Our team comprises experienced investors, industry experts, and passionate professionals dedicated to demystifying the startup investment landscape in Latam."  
+  },
+
+  "Partners":{
+    "our_partners": "Our Partners in",
+    "success": "Success"
+  },
+
+  "Qa":{
+    "frequently": "Frequently Asked Questions",
+    "you_have": "You Have the",
+    "questions": "Questions",
+    "we_have": "We Have the",
+    "answers": "Answers",
+    "question_1": "What is the Entrepreneurial Investing program about?",
+    "answer_1": "The program offers comprehensive training on how to invest in startups in Latin America. It includes strategies, tips, and secrets from regional experts to make informed decisions and maximize investment returns.",
+    "question_2": "Who are the experts behind the program?",
+    "answer_2": "The program is designed and led by experienced investors and professionals from the Latam entrepreneurial ecosystem, with years of successful investment experience and deep market knowledge.",
+    "question_3": "What will I learn in the program?",
+    "answer_3": "You will learn how to identify promising startups, conduct effective due diligence, understand different business models, evaluate founding teams, and much more. You will also receive practical advice and real case studies.",
+    "question_4": "Are there any prerequisites to join the program?",
+    "answer_4": "No specific prior knowledge is required, although a basic understanding of finance and business can be helpful. The program is designed to be accessible to both beginners and experienced investors.",
+    "question_5": "How can I get in touch with you?",
+    "answer_5": "Feel free to email us at sofia@entrepreneurial.vc",
+    "still_questions": "Still have more questions? Contact us",
+    "email": "sofia@entrepreneurial.vc"
+  },
+    "Footer": {
+      "text": "All rights reserved Entrepreneurial Investing | Designed and built with love - Copyright© 2024"
+    }
+  }

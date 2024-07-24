@@ -1,0 +1,101 @@
+{
+
+  "Navbar":{
+      "home": "Inicio",
+      "team": "Equipo",
+      "7weeks": "7-semanas",
+      "8weeks": "8-semanas",
+      "pitch": "Practica Pitch",
+      "about": "Nosotros",
+      "qa": "P&R",
+      "apply":  "Aplica Ahora"
+
+
+  },
+
+  "Hero": {
+    "learn_to": "Aprende a",
+    "invest": "Invertir",
+    "in": "En",
+    "startups": "Startups",
+    "like_the": "Como Los",
+    "best": "Mejores En Latam",
+    "subtopic": "Empoderar a inversores aspirantes y experimentados, así como a oficinas familiares con el conocimiento, herramientas y red necesarios para identificar e invertir en las startups más prometedoras de América Latina."
+  },
+  "Team": {
+    "meet_our": "Conoce a Nuestro",
+    "team": "Equipo",
+    "description": "Nuestro equipo está compuesto por los mejores inversores de América Latina, aportando una gran experiencia y un historial probado en el mundo de la inversión en startups.",
+    "laura_gaviria": "Laura Gaviria es cofundadora de Team Faktory AI y ex ejecutiva de SoftBank, donde jugó un papel clave en la identificación y promoción de inversiones estratégicas. Con una vasta experiencia en el ecosistema de startups, ha trabajado en el desarrollo y escalamiento de diversas empresas tecnológicas.",
+    "laura_gonzalez": "Laura González es la Directora de Negocios para el Crecimiento Estratégico. Con una gran experiencia en la expansión empresarial, la financiación estructurada y como inversora de VC, sobresale en identificar y capitalizar oportunidades de crecimiento a través de iniciativas estratégicas.",
+    "andres_bilbao": "Andrés Bilbao es un destacado cofundador de Rappi y Makers. Reconocido por su visión estratégica y espíritu emprendedor, también ha invertido en algunas de las startups más exitosas de la región."
+  },
+  "Program": {
+    "7weeks": "Programa de",
+    "8weeks": "Programa de",
+    "program": "7 semanas",
+    "program_2": "8 semanas",
+    "for_entrepreneurial": "para Entrepreneurial",
+    "investors": "Investors",
+    "module1": "Módulo 1: Introducción al VC",
+    "first_topic": "Comprender las estrategias de capital de riesgo y la inversión ángel",
+    "second_topic": "Construir una marca de inversor ángel",
+    "third_topic": "Aprender a recopilar dealflow de alta calidad desarrollando una marca ángel",
+    "fourth_topic": "Aprender a evaluar presentaciones y acuerdos",
+    "fifth_topic": "Dominar el arte del reconocimiento de patrones para seleccionar a los mejores fundadores y acuerdos",
+    "sixth_topic": "Marco para decidir la construcción de la cartera",
+    "seventh_topic": "Mesa redonda con múltiples inversores de VC para reflexionar sobre las lecciones aprendidas durante la inversión ángel",
+    "eighth_topic": "Entender y aprender a aplicar los términos económicos y de control del Term Sheet",
+    "ninth_topic": "Pitch en vivo con los mejores fundadores y el mejor dealflow en etapa temprana de LATAM",
+    "tenth_topic": "Cenas de networking en vivo",
+    "module2": "Módulo 2: Sourcing",
+    "module3": "Módulo 3: Evaluación y construcción de cartera",
+    "module4": "Módulo 4: Lecciones aprendidas en inversión ángel",
+    "module5": "Módulo 5: Term Sheets",
+    "module6": "Módulo 6: Módulo Premium"
+  },
+  "Pitch": {
+    "our_pitch": "Nuestra Práctica Semanal de Pitch No Es Solo una Rutina; Es un",
+    "ritual": "Ritual de Excelencia",
+    "description": "¿Buscas capital o simplemente quieres mejorar tus habilidades de comunicación? ¡Este es el lugar para ti!",
+    "description_2": "Ven a practicar tu pitch y recibe comentarios de inversores experimentados de la región",
+    "first_ball": "Presenta tu pitch en 5 minutos",
+    "second_ball": "Recibe comentarios",
+    "third_ball": "Conéctate con inversores",
+    "fourth_ball": "Mejora tu comunicación y pitch"
+  },
+  "About": {
+    "about": "Sobre",
+    "entrepreneurial_investing": "Entrepreneurial Investing",
+    "title_1": "Empoderando Inversores",
+    "title_2": "Nuestra Creencia",
+    "text_1": "Tu puerta de entrada para dominar el arte de invertir en startups en toda América Latina. Nuestra misión es empoderar a los inversores aspirantes y experimentados con el conocimiento, las herramientas y la red necesarios para identificar e invertir en las startups más prometedoras de la región.",
+    "text_2": "En Entrepreneurial Investing, creemos que invertir en startups debe ser accesible e informado. Nuestro equipo está compuesto por inversores experimentados, expertos de la industria y profesionales apasionados dedicados a desmitificar el panorama de la inversión en startups en Latam."
+  },
+  "Partners": {
+    "our_partners": "Nuestros Socios en el",
+    "success": "Éxito"
+  },
+  "Qa": {
+    "frequently": "Preguntas Frecuentes",
+    "you_have": "Tienes las",
+    "questions": "Preguntas",
+    "we_have": "Tenemos las",
+    "answers": "Respuestas",
+    "question_1": "¿De qué trata el programa de Entrepreneurial Investing?",
+    "answer_1": "El programa ofrece una capacitación integral sobre cómo invertir en startups en América Latina. Incluye estrategias, consejos y secretos de expertos regionales para tomar decisiones informadas y maximizar los rendimientos de la inversión.",
+    "question_2": "¿Quiénes son los expertos detrás del programa?",
+    "answer_2": "El programa está diseñado y dirigido por inversores experimentados y profesionales del ecosistema emprendedor de Latam, con años de experiencia en inversiones exitosas y un profundo conocimiento del mercado.",
+    "question_3": "¿Qué aprenderé en el programa?",
+    "answer_3": "Aprenderás a identificar startups prometedoras, realizar una debida diligencia efectiva, comprender diferentes modelos de negocio, evaluar equipos fundadores y mucho más. También recibirás consejos prácticos y estudios de caso reales.",
+    "question_4": "¿Hay algún requisito previo para unirse al programa?",
+    "answer_4": "No se requiere conocimiento previo específico, aunque un entendimiento básico de finanzas y negocios puede ser útil. El programa está diseñado para ser accesible tanto para principiantes como para inversores experimentados.",
+    "question_5": "¿Cómo puedo ponerme en contacto con ustedes?",
+    "answer_5": "No dudes en enviarnos un correo electrónico a sofia@entrepreneurial.vc",
+    "still_questions": "¿Aún tienes más preguntas? Contáctanos",
+    "email": "sofia@entrepreneurial.vc"
+  },
+  "Footer": {
+    "text": "Todos los derechos reservados Inversión Emprendedora | Diseñado y construido con amor - Copyright© 2024"
+  }
+}

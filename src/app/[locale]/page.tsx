@@ -7,27 +7,20 @@ import Sponsors from "@/components/Sponsors";
 import PitchPractice from "@/components/PitchPractice";
 import Hero from "@/components/Hero";
 import NavBar from "@/components/NavBar";
-import { useTranslation } from "../i18n/index";
 import { Fade } from "react-awesome-reveal";
 import Team from "@/components/Team";
 import ModulesEight from "@/components/Program8";
+import pick from "lodash/pick";
 
-export default function Home({
-  params: { lng },
-}: Readonly<{ params: { lng: string } }>) {
-  const [top, setTop] = useState<boolean>(true);
+import {
+  useTranslations,
+  NextIntlClientProvider,
+  useMessages,
+} from "next-intl";
+import Link from "next/link";
 
-  // detect whether user has scrolled the page down by 10px
-  const scrollHandler = () => {
-    window.pageYOffset > 10 ? setTop(false) : setTop(true);
-  };
-
-  useEffect(() => {
-    scrollHandler();
-    window.addEventListener("scroll", scrollHandler);
-    return () => window.removeEventListener("scroll", scrollHandler);
-  }, [top]);
-
+export default function Home() {
+  const t = useTranslations("Footer");
   return (
     <div className="min-h-screen bg-white">
       <NavBar />
@@ -44,10 +37,7 @@ export default function Home({
       </main>
 
       <footer className="bg-gray-50 text-center p-4 mt-20">
-        <p className="text-gray-600">
-          All rights reserved Entrepreneurial Investing | Designed and built
-          with love - Copyright© 2024
-        </p>
+        <p className="text-gray-600">{t("text")}</p>
       </footer>
     </div>
   );
