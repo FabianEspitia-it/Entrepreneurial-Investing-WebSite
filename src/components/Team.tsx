@@ -18,7 +18,7 @@ export default function Team() {
     {
       name: "Andrés Bilbao",
       description: t("andres_bilbao"),
-      image: "/images/bilbao.png",
+      image: "/images/andres.png",
     },
   ];
   return (
