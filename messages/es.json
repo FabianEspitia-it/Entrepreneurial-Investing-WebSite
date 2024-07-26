@@ -3,7 +3,7 @@
   "Navbar":{
       "home": "Inicio",
       "team": "Equipo",
-      "7weeks": "7-semanas",
+      "7weeks": "6-semanas",
       "8weeks": "8-semanas",
       "pitch": "Practica Pitch",
       "about": "Nosotros",
@@ -33,7 +33,7 @@
   "Program": {
     "7weeks": "Programa de",
     "8weeks": "Programa de",
-    "program": "7 semanas",
+    "program": "6 semanas",
     "program_2": "8 semanas",
     "for_entrepreneurial": "para Entrepreneurial",
     "investors": "Investors",

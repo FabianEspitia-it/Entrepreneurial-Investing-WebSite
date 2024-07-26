@@ -2,7 +2,7 @@
   "Navbar":{
       "home": "Home",
       "team": "Team",
-      "7weeks": "7-Weeks",
+      "7weeks": "6-Weeks",
       "8weeks": "8-Weeks",
       "pitch": "Pitch Practice",
       "about": "About Us",
@@ -32,7 +32,7 @@
   },
 
   "Program":{
-    "7weeks": "7-Weeks", 
+    "7weeks": "6-Weeks", 
     "8weeks": "8-Weeks",
     "program": "Program",
     "for_entrepreneurial": "for Entrepreneurial",
